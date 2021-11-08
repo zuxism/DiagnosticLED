@@ -4,8 +4,7 @@
 DiagnosticLED dl;
 
 void setup() {
-  // 22 is LED pin
-  // LED is ON when 22 is LOW
+  // LED_BUILTIN is ON with HIGH (for wemos d1 mini esp32, check your board)
   dl.begin(LED_BUILTIN, HIGH);
 
   // do 2 fast flashes
