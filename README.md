@@ -67,7 +67,7 @@ SSSSSSSSSSsssSSSSSSSSSSsssSSSSSSSSSSsss...
 
 After both the fast and slow blink cycles there is a pause, the pause after the slow blinks is longer to more easily distinguish the start of the next pattern.
 
-By default the pause after fast blinks is 2 divisons(```POST_FAST_PAUSE_DIVISIONS```), and after the slow blinks 12 divisions(```_POST_SLOW_PAUSE_DIVISIONS```).
+By default the pause after fast blinks is 2 divisons(```POST_FAST_PAUSE_DIVISIONS```), and after the slow blinks 12 divisions(```POST_SLOW_PAUSE_DIVISIONS```).
 
 So a pattern of 2,2 would be represented as:
 
